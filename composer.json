@@ -1,0 +1,12 @@
+{
+    "name": "hcipl/dropzone-with-dropbox",
+    "description": "Dropzone file upload with dropbox",
+    "authors": [
+        {
+            "name": "hcipl",
+            "email": "zinal.patel@horizoncore.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
