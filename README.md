@@ -11,6 +11,7 @@ Live url : (https://packagist.org/packages/hcipl/dropzone-with-dropbox)
 4. Set dropbox configuration on your .env file
 5. Configure Dropbox as Driver in AppServiceProvider.php 
 
+```php
     public function boot()
     {
     	
@@ -27,6 +28,7 @@ Live url : (https://packagist.org/packages/hcipl/dropzone-with-dropbox)
             );
         });
     }
+```    
 
 6. Add a new driver on the config/filesystems.php inside "disks".
 
