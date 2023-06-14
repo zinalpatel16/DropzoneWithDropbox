@@ -32,6 +32,7 @@ Live url : (https://packagist.org/packages/hcipl/dropzone-with-dropbox)
 
 6. Add a new driver on the config/filesystems.php inside "disks".
 
+```php
 	'dropbox' => [
         'driver' => 'dropbox',
         'key' => env('DROPBOX_APP_KEY'),
@@ -39,6 +40,7 @@ Live url : (https://packagist.org/packages/hcipl/dropzone-with-dropbox)
         'authorization_token' => env('DROPBOX_AUTHORIZATION_TOKEN', null),
         'case_sensitive' => true,
     ]
+```
 
 7. Run migration: "php artisan migrate"
 8. Run project server "php artisan serve",
