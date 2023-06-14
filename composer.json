@@ -1,6 +1,7 @@
 {
     "name": "hcipl/dropzone-with-dropbox",
     "description": "Dropzone file upload with dropbox",
+    "type": "laravel-module",
     "authors": [
         {
             "name": "hcipl",
@@ -8,5 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "license": "MIT",
+    "require": {
+        "sawirricardo/laravel-dropbox": "^0.2.0"
+    },
+    "keywords":  ["Hcipl", "Dropzone", "Dropbox", "Laravel", "file-upload"]
 }
